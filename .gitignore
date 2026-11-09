@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+# the dataset is a release asset, not part of the repository
+*.tsv.gz
+# run records written by the tools
+*.jsonl
+*.log
+cn2_box_fecundity.csv
