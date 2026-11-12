@@ -114,7 +114,7 @@ Howe's construction fixes a **search modulus** $L_0$ and a type-$p$ set $T$. It 
 
 $$n = \Big(\prod_{p \in T} p\Big)\, n_0, \qquad n_0 \text{ squarefree over the pool } P(2,L_0) = \lbrace q \nmid L_0 : q^2-1 \mid L_0\rbrace,$$
 
-with $n \equiv 1 \pmod{L_0}$, $n \equiv 1 \pmod{q^2-1}$ at every $q \mid n_0$, and $n \equiv p \pmod{p^2-1}$ at every $p \in T$. A meet-in-the-middle (Schroeppel–Shamir) engine solves each such problem exhaustively. **For a fixed $(L_0, T)$, the search is complete:** any non-rigid $n$ with $T(n) = T$ and $L_R(n) \mid L_0$ is found. The dataset is incomplete only because just some pairs $(L_0, T)$ were searched:
+with $n \equiv 1 \pmod{L_0}$, $n \equiv 1 \pmod{q^2-1}$ at every $q \mid n_0$, and $n \equiv p \pmod{p^2-1}$ at every $p \in T$. A meet-in-the-middle (Schroeppel–Shamir) engine solves each such problem exhaustively. **For a fixed $(L_0, T)$, the search is complete:** any non-rigid $n$ with $T(n) = T$ and $L_R(n) = L_0$ is found. The dataset is incomplete only because just some pairs $(L_0, T)$ were searched:
 
 | search | pairs $(L_0, T)$ | numbers found |
 |---|---|---|
